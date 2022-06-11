@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
@@ -32,9 +33,11 @@ const About = () => {
         </div>
         {/* grid two */}
         <div className=" max-w-[720px] h-auto m-auto shadow-lg rounded-xl drop-shadow-md hover:shadow-gray-600 flex items-center justify-center p-4 hover:scale-105 ease-in duration-150  ">
-          <img
+          <Image
             className="rounded-xl"
             src="https://res.cloudinary.com/delinuxist/image/upload/v1654874438/vxc3t4fl1ulsxkhr98tt.jpg"
+            width={600}
+            height={700}
             alt="Image"
           />
         </div>
