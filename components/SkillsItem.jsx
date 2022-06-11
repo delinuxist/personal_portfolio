@@ -7,7 +7,7 @@ const SkillsPng = ({ imageUrl, title }) => {
       <div className=" grid grid-cols-2 gap-4 justify-center items-center">
         {/* grid one */}
         <div className=" m-auto">
-          <Image src={imageUrl} height="64px" width="64px" alt="/" />
+          <Image src={imageUrl} height="64px" width="64px" alt="images" />
         </div>
         {/* grid two */}
         <div>
