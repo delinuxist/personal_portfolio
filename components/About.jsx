@@ -14,21 +14,18 @@ const About = () => {
             About
           </p>
           <h2 className=" py-4 text-orange-300">Who I Am</h2>
-          <p className=" py-2 ">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed soluta
-            fugit quasi, corporis, culpa quidem mollitia aliquid qui dolore ab
-            facere fugiat beatae rem? Magnam eveniet quidem id dignissimos sequi
-            quis aspernatur quia dolores molestias necessitatibus ad mollitia
-            dolorem ducimus, ab praesentium excepturi est nobis placeat nostrum
-            iusto, perferendis quod?
+          <p className=" tracking-widest font-light py-2  mx-auto">
+            I&apos;m a Full-Stack Developer specialized in building exceptional
+            digital experience. Currently I&apos;m focused on building{" "}
+            <span className=" text-orange-400">innovative </span>
+            applications while learning and implementing the best ways to secure
+            backend.
           </p>
           <p className=" py-2 ">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed soluta
-            fugit quasi, corporis, culpa quidem mollitia aliquid qui dolore ab
-            facere fugiat beatae rem? Magnam eveniet quidem id dignissimos sequi
-            quis aspernatur quia dolores molestias necessitatibus ad mollitia
-            dolorem ducimus, ab praesentium excepturi est nobis placeat nostrum
-            iusto, perferendis quod?
+            I have a diverse set of skills, ranging from web to backend
+            development. I primarily use Reactjs and Nextjs for my frontend and
+            expressjs for my backend. Open to learn any intriguing stack that
+            will improve the performance of a project.
           </p>
         </div>
         {/* grid two */}
