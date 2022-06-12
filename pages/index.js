@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Emmanuel | Software Engineer</title>
+        <title>Emmanuel | Full-Stack Developer</title>
       </Head>
       <div>
         <Navbar />
