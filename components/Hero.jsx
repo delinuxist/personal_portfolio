@@ -15,15 +15,22 @@ const Hero = () => {
                 Hi, I&apos;m <span className=" text-[#5651e5]">Emmanuel</span>
               </h1>
               <h1>
-                <span className=" text-cyan-600 mx-auto">Software</span>{" "}
-                <span>Engineer</span>
+                <span className=" text-cyan-600 mx-auto">Frontend</span>{" "}
+                <span>Developer</span>
               </h1>
-              <p className=" tracking-widest font-light py-2 max-w-[70%] mx-auto">
-                I&apos;m a Software Engineer specialized in building exceptional
-                digital experiences. Currently I&apos;m focused on building{" "}
-                <span className=" text-orange-400">innovative </span>
-                applications while implementing the best ways to secure my
-                backend.
+              <p className=" tracking-normal py-8 ">
+                <span className=" text-2xl">“</span>
+                <span className=" text-2xl font-bold">
+                  First, solve the{" "}
+                  <span className=" bg-gradient-to-r from-orange-300 to-cyan-300 bg-clip-text text-transparent font-normal">
+                    problem
+                  </span>
+                  . Then, write the{" "}
+                  <span className=" text-transparent  bg-gradient-to-r font-normal from-cyan-300 to-orange-300 bg-clip-text">
+                    code
+                  </span>
+                </span>
+                <span className=" text-2xl">“</span>
               </p>
             </div>
           </div>
