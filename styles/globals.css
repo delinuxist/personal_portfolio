@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Joan", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @layer base {
