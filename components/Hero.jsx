@@ -15,7 +15,7 @@ const Hero = () => {
                 Let&apos;s Build Something Together
               </p>
               <h2 className="py-4">
-                Hi, I&apos;m <span className=" text-[#5651e5]">Emmanuel</span>
+                Hi, I&apos;m <span className=" text-[#41ead4]">Emmanuel</span>
               </h2>
               <h1 className="">
                 <span className=" bg-gradient-to-b from-orange-400 to-cyan-400 text-transparent bg-clip-text ">
