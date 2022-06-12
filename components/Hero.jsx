@@ -3,20 +3,25 @@ import BackgroundAnimation from "./BgAnimation/BgAnimation";
 
 const Hero = () => {
   return (
-    <div id="home" className=" w-full h-screen text-white text-center">
-      <div className=" max-w-[1240px] w-full h-full mx-auto p-2 flex items-center justify-center ">
+    <div
+      id="home"
+      className=" w-full h-screen text-white text-center lg:text-left sm:px-2 md:px-24 pt-8"
+    >
+      <div className=" max-w-[1240px] w-full h-full  p-2 flex items-center justify-center ">
         <div className="flex lg:grid grid-cols-2">
           <div className="flex items-center justify-center h-full  ">
             <div>
               <p className=" uppercase text-sm tracking-widest">
                 Let&apos;s Build Something Together
               </p>
-              <h1 className="py-4">
+              <h2 className="py-4">
                 Hi, I&apos;m <span className=" text-[#5651e5]">Emmanuel</span>
-              </h1>
-              <h1>
-                <span className=" text-cyan-600 mx-auto">Frontend</span>{" "}
-                <span>Developer</span>
+              </h2>
+              <h1 className="">
+                <span className=" bg-gradient-to-b from-orange-400 to-cyan-400 text-transparent bg-clip-text ">
+                  Full-Stack
+                </span>{" "}
+                <span className=" font-medium">Developer</span>
               </h1>
               <p className=" tracking-normal py-8 ">
                 <span className=" text-2xl">“</span>
