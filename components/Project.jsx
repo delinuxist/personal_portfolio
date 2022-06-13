@@ -2,6 +2,7 @@ import React from "react";
 import moviezone from "../public/assets/img/movieZone.png";
 import cybercorp from "../public/assets/img/cyberCorp.png";
 import arctictravels from "../public/assets/img/Arctic Travels.png";
+import moviezonev2 from "../public/assets/img/moviezone-version2.png";
 import ProjectItem from "./ProjectItem";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -32,6 +33,12 @@ const Project = () => {
             title="Arctic Travels"
             stack="React Js"
             projectUrl="/arcticTravels"
+          />
+          <ProjectItem
+            image={moviezonev2}
+            title="MovieZone v2"
+            stack="Next Js"
+            projectUrl="/moviezonev2"
           />
         </div>
         <div className=" flex  justify-center py-12">
